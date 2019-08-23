@@ -53,22 +53,25 @@ language = 'en'
 # latex_elements = {
 #     'preamble': '\\usepackage{kotex}\n',
 # }
-latex_elements = {
-        # Additional stuff for the LaTeX preamble.
-        'preamble': "".join((
-        '\usepackage[utf8x]{inputenc}',
-        '\documentclass{article}',
-        '\usepackage{kotex}',
-        ))
-# The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'letterpaper',
 
-# The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
+## TODO. 출판환경에서는 아래의 주석을 제거후 commit & push 를 한다. 
+# latex_elements = {
+#         # Additional stuff for the LaTeX preamble.
+#         'preamble': "".join((
+#         '\usepackage[utf8x]{inputenc}',
+#         '\documentclass{article}',
+#         '\usepackage{kotex}',
+#         ))
+# # The paper size ('letterpaper' or 'a4paper').
+# #'papersize': 'letterpaper',
+# 
+# # The font size ('10pt', '11pt' or '12pt').
+# #'pointsize': '10pt',
+# 
+# # Additional stuff for the LaTeX preamble.
+# #'preamble': '',
+# }
 
-# Additional stuff for the LaTeX preamble.
-#'preamble': '',
-}
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
